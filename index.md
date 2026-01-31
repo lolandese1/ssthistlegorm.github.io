@@ -23,7 +23,7 @@ Currents may occasionally be strong; ,, mooring lines tied by the guide allow di
 
 <img alt="BSA" src="/assets/images/thistlegorm_bsa.jpg" style="border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; margin-left: 5px; margin-right: 5px; margin-top: 3px; margin-bottom: 3px; float: left; width: 270px; height: 179px; " title="BSA" class="media media-left">It must be said, that even after several hundred dives on Thistlegorm, such is the allure it holds for divers, that there is always something new to see. Very recently, a local diver claims that he stumbled across a newly discovered locomotive some one hundred and fifty metres from the wreck. The race is on to reach and photograph the engine together with the ship's funnel, both of which, allegedly, are still attached to the deck, blown clean off the ship by the explosion.
 
-, SS Thistlegorm requires certification as a trained diver, beyond entry level, through a recognised scuba training agency. In any event, divers visit the wreck at their own risk.
+Diving the SS Thistlegorm requires certification as a trained diver, beyond entry level, through a recognised scuba training agency. In any event, divers visit the wreck at their own risk.
 
 # Crew Interviews
 
