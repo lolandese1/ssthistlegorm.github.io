@@ -49,6 +49,7 @@ collections:
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Tagline", name: "tagline", widget: "string", required: false}
+          - {label: "Group", name: "group", widget: "select", options: ["navigation", "footer", ""], default: "navigation", required: false}
           - {label: "FontAwesome Icon", name: "icon", widget: "string", required: false, hint: "Icon name without 'fa-' prefix (e.g., graduation-cap, envelope, user)"}
           - {label: "Body", name: "body", widget: "markdown"}
 
@@ -59,6 +60,7 @@ collections:
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Tagline", name: "tagline", widget: "string", required: false}
+          - {label: "Group", name: "group", widget: "select", options: ["navigation", "footer", ""], default: "navigation", required: false}
           - {label: "FontAwesome Icon", name: "icon", widget: "string", required: false, hint: "Icon name without 'fa-' prefix (e.g., graduation-cap, envelope, user)"}
           - {label: "Body", name: "body", widget: "markdown"}
 
@@ -69,6 +71,7 @@ collections:
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Tagline", name: "tagline", widget: "string", required: false}
+          - {label: "Group", name: "group", widget: "select", options: ["navigation", "footer", ""], default: "navigation", required: false}
           - {label: "FontAwesome Icon", name: "icon", widget: "string", required: false, hint: "Icon name without 'fa-' prefix (e.g., graduation-cap, envelope, user)"}
           - {label: "Body", name: "body", widget: "markdown"}
 
@@ -79,6 +82,7 @@ collections:
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Tagline", name: "tagline", widget: "string", required: false}
+          - {label: "Group", name: "group", widget: "select", options: ["navigation", "footer", ""], default: "navigation", required: false}
           - {label: "FontAwesome Icon", name: "icon", widget: "string", required: false, hint: "Icon name without 'fa-' prefix (e.g., graduation-cap, envelope, user)"}
           - {label: "Body", name: "body", widget: "markdown"}
 
