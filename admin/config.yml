@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: lolandese1/ssthistlegorm.github.io
   branch: master
 
 # Use Sveltia CMS in production
@@ -38,7 +39,7 @@ collections:
           - {label: "Tagline", name: "tagline", widget: "string", required: false}
           - {label: "Group", name: "group", widget: "hidden", default: "navigation"}
           - {label: "Body", name: "body", widget: "markdown"}
-      
+
       - label: "About Page"
         name: "about"
         file: "about.md"
@@ -48,7 +49,7 @@ collections:
           - {label: "Tagline", name: "tagline", widget: "string", required: false}
           - {label: "Group", name: "group", widget: "hidden", default: "navigation"}
           - {label: "Body", name: "body", widget: "markdown"}
-      
+
       - label: "Book Page"
         name: "book"
         file: "book.md"
@@ -58,7 +59,7 @@ collections:
           - {label: "Tagline", name: "tagline", widget: "string", required: false}
           - {label: "Group", name: "group", widget: "hidden", default: "navigation"}
           - {label: "Body", name: "body", widget: "markdown"}
-      
+
       - label: "Contact Page"
         name: "contact"
         file: "contact.md"
@@ -68,7 +69,7 @@ collections:
           - {label: "Tagline", name: "tagline", widget: "string", required: false}
           - {label: "Group", name: "group", widget: "hidden", default: "navigation"}
           - {label: "Body", name: "body", widget: "markdown"}
-      
+
       - label: "Past Expeditions"
         name: "past"
         file: "past.md"
@@ -78,7 +79,7 @@ collections:
           - {label: "Tagline", name: "tagline", widget: "string", required: false}
           - {label: "Group", name: "group", widget: "hidden", default: "navigation"}
           - {label: "Body", name: "body", widget: "markdown"}
-      
+
       - label: "Work Page"
         name: "work"
         file: "work.md"
