@@ -1,10 +1,29 @@
-_site/*
+# Jekyll site
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Theme packages
 _theme_packages/*
 
+# Ruby/Bundler
+.bundle/
+vendor/
+*.gem
+Gemfile.lock
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 Thumbs.db
 .DS_Store
 
-!.gitkeep
-
+# RVM/Rbenv
 .rbenv-version
 .rvmrc
+
+# Keep placeholder file for empty directories
+!.gitkeep
