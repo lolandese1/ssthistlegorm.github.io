@@ -11,6 +11,9 @@ backend:
 media_folder: "assets/images"
 public_folder: "/assets/images"
 
+# Enable live site preview
+site_url: https://ssthistlegorm.com
+
 # Collections
 collections:
   - name: "posts"
@@ -37,7 +40,6 @@ collections:
           - {label: "Layout", name: "layout", widget: "hidden", default: "front"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Tagline", name: "tagline", widget: "string", required: false}
-          - {label: "Group", name: "group", widget: "hidden", default: "navigation"}
           - {label: "Body", name: "body", widget: "markdown"}
 
       - label: "About Page"
@@ -47,7 +49,7 @@ collections:
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Tagline", name: "tagline", widget: "string", required: false}
-          - {label: "Group", name: "group", widget: "hidden", default: "navigation"}
+          - {label: "FontAwesome Icon", name: "icon", widget: "string", required: false, hint: "Icon name without 'fa-' prefix (e.g., graduation-cap, envelope, user)"}
           - {label: "Body", name: "body", widget: "markdown"}
 
       - label: "Book Page"
@@ -57,7 +59,7 @@ collections:
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Tagline", name: "tagline", widget: "string", required: false}
-          - {label: "Group", name: "group", widget: "hidden", default: "navigation"}
+          - {label: "FontAwesome Icon", name: "icon", widget: "string", required: false, hint: "Icon name without 'fa-' prefix (e.g., graduation-cap, envelope, user)"}
           - {label: "Body", name: "body", widget: "markdown"}
 
       - label: "Contact Page"
@@ -67,7 +69,7 @@ collections:
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Tagline", name: "tagline", widget: "string", required: false}
-          - {label: "Group", name: "group", widget: "hidden", default: "navigation"}
+          - {label: "FontAwesome Icon", name: "icon", widget: "string", required: false, hint: "Icon name without 'fa-' prefix (e.g., graduation-cap, envelope, user)"}
           - {label: "Body", name: "body", widget: "markdown"}
 
       - label: "Work Page"
@@ -77,7 +79,7 @@ collections:
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Tagline", name: "tagline", widget: "string", required: false}
-          - {label: "Group", name: "group", widget: "hidden", default: "navigation"}
+          - {label: "FontAwesome Icon", name: "icon", widget: "string", required: false, hint: "Icon name without 'fa-' prefix (e.g., graduation-cap, envelope, user)"}
           - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "other-wrecks"
@@ -89,6 +91,7 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Tagline", name: "tagline", widget: "string", required: false}
+      - {label: "FontAwesome Icon", name: "icon", widget: "string", required: false, hint: "Icon name without 'fa-' prefix (e.g., ship, anchor, compass)"}
       - {label: "Body", name: "body", widget: "markdown"}
 
 # Site configuration (optional)
