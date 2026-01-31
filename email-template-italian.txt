@@ -1,0 +1,78 @@
+Oggetto: Accesso al Sistema di Gestione Contenuti del Sito SS Thistlegorm
+
+Ciao [Nome Content Manager],
+
+Ti sto dando accesso per gestire i contenuti del sito web SS Thistlegorm. Ecco tutto ciò che ti serve per iniziare:
+
+### Informazioni di Accesso
+
+**CMS del Sito Web:** https://ssthistlegorm.com/admin/
+
+**Il Tuo Token di Accesso:** [INCOLLA IL TOKEN QUI]
+
+**Importante:** Mantieni questo token confidenziale - è come una password che dà accesso per modificare il sito web.
+
+### Passaggi per il Primo Accesso
+
+1. Vai su https://ssthistlegorm.com/admin/
+2. Clicca su "Sign In with GitHub Using Token" (il pulsante in basso)
+3. Incolla il tuo token di accesso nel campo di testo
+4. Clicca su "Sign in"
+
+### Archiviazione del Token
+
+**Sul Tuo Computer Personale:**
+- Devi inserirlo **una sola volta per browser**
+- Viene salvato automaticamente e rimane anche dopo aver chiuso/riaperto il browser
+- Salva semplicemente nei preferiti https://ssthistlegorm.com/admin/ e vai direttamente lì la prossima volta
+
+**⚠️ Su Computer Pubblici/Condivisi:**
+- **USA SEMPRE la modalità Navigazione in Incognito/Privata**
+- Il token NON verrà salvato e dovrà essere reinserito ogni sessione
+- Questo impedisce ad altri di accedere al CMS dopo che te ne sei andato
+- **Come aprire la modalità incognito:**
+  - Chrome/Edge: Ctrl+Shift+N (Windows) o Cmd+Shift+N (Mac)
+  - Firefox: Ctrl+Shift+P (Windows) o Cmd+Shift+P (Mac)
+  - Safari: Cmd+Shift+N (Mac)
+
+**Regole di Sicurezza:**
+- ✅ Dispositivo personale usato solo da te → Browser normale (token salvato)
+- ⚠️ Computer condiviso famiglia/ufficio → Modalità incognito (token non salvato)
+- ❌ Biblioteca pubblica/internet café → Modalità incognito OBBLIGATORIA
+
+### Cosa Puoi Fare
+
+Il CMS ti permette di:
+- Creare e modificare articoli del blog
+- Aggiornare le pagine principali del sito (Home, Chi Siamo, Libro, Contatti, ecc.)
+- Aggiungere contenuti su altri siti di relitti
+- Caricare e gestire immagini
+- Tutte le modifiche vengono pubblicate automaticamente sul sito live (richiede 1-2 minuti per apparire)
+
+### Documentazione Completa
+
+Ho creato una guida completa per te: https://github.com/lolandese1/ssthistlegorm.github.io/blob/master/CONTENT_MANAGER_GUIDE_IT.md
+
+Include:
+- Istruzioni dettagliate di utilizzo
+- Suggerimenti per la modifica dei contenuti
+- Aiuto per la risoluzione dei problemi
+- Best practice di sicurezza
+
+### Inizio Rapido
+
+Una volta loggato, vedrai tre collezioni di contenuti:
+- **Blog Posts** - per notizie e aggiornamenti
+- **Pages** - per le pagine principali del sito
+- **Other Wrecks** - per la documentazione dei relitti
+
+Clicca su qualsiasi collezione per vedere i contenuti esistenti, o clicca "New" per creare qualcosa di nuovo.
+
+### Hai Bisogno di Aiuto?
+
+Se hai domande o incontri problemi, fammelo sapere. Il sistema è progettato per essere user-friendly, ma sono qui per aiutare se necessario.
+
+Non vedo l'ora di vedere i tuoi contributi ai contenuti!
+
+Cordiali saluti,
+[Il Tuo Nome]

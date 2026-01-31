@@ -1,0 +1,78 @@
+Subject: Access to SS Thistlegorm Website Content Management System
+
+Hi [Content Manager Name],
+
+I'm giving you access to manage content on the SS Thistlegorm website. Here's everything you need to get started:
+
+### Login Information
+
+**Website CMS:** https://ssthistlegorm.com/admin/
+
+**Your Access Token:** [PASTE TOKEN HERE]
+
+**Important:** Keep this token confidential - it's like a password that gives access to edit the website.
+
+### First Time Login Steps
+
+1. Go to https://ssthistlegorm.com/admin/
+2. Click "Sign In with GitHub Using Token" (the bottom button)
+3. Paste your access token in the text field
+4. Click "Sign in"
+
+### About Token Storage
+
+**On Your Personal Computer:**
+- You only need to enter the token **once per browser**
+- It's saved automatically and persists after closing/reopening the browser
+- Just bookmark https://ssthistlegorm.com/admin/ and go straight there next time
+
+**⚠️ On Public/Shared Computers:**
+- **ALWAYS use Incognito/Private browsing mode**
+- The token will NOT be saved and must be re-entered each session
+- This prevents others from accessing the CMS after you leave
+- **How to open incognito:**
+  - Chrome/Edge: Ctrl+Shift+N (Windows) or Cmd+Shift+N (Mac)
+  - Firefox: Ctrl+Shift+P (Windows) or Cmd+Shift+P (Mac)
+  - Safari: Cmd+Shift+N (Mac)
+
+**Security Rules:**
+- ✅ Personal device with only you using it → Regular browser (token saved)
+- ⚠️ Shared family/office computer → Incognito mode (token not saved)
+- ❌ Public library/internet cafe → Incognito mode REQUIRED
+
+### What You Can Do
+
+The CMS lets you:
+- Create and edit blog posts
+- Update main website pages (Home, About, Book, Contact, etc.)
+- Add content about other wreck sites
+- Upload and manage images
+- All changes are automatically published to the live website (takes 1-2 minutes to appear)
+
+### Full Documentation
+
+I've created a complete guide for you: https://github.com/lolandese1/ssthistlegorm.github.io/blob/master/CONTENT_MANAGER_GUIDE.md
+
+It includes:
+- Detailed usage instructions
+- Tips for content editing
+- Troubleshooting help
+- Security best practices
+
+### Quick Start
+
+Once logged in, you'll see three content collections:
+- **Blog Posts** - for news and updates
+- **Pages** - for main website pages
+- **Other Wrecks** - for wreck documentation
+
+Click any collection to see existing content, or click "New" to create something new.
+
+### Need Help?
+
+If you have any questions or run into issues, just let me know. The system is designed to be user-friendly, but I'm here to help if needed.
+
+Looking forward to seeing your content contributions!
+
+Best regards,
+[Your Name]
