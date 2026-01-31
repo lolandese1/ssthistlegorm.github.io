@@ -36,6 +36,7 @@ collections:
       - label: "Home Page"
         name: "index"
         file: "index.md"
+        preview_path: "/"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "front"}
           - {label: "Title", name: "title", widget: "string"}
@@ -45,6 +46,7 @@ collections:
       - label: "About Page"
         name: "about"
         file: "about.md"
+        preview_path: "/about"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
           - {label: "Title", name: "title", widget: "string"}
@@ -56,6 +58,7 @@ collections:
       - label: "Book Page"
         name: "book"
         file: "book.md"
+        preview_path: "/book"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
           - {label: "Title", name: "title", widget: "string"}
@@ -67,6 +70,7 @@ collections:
       - label: "Contact Page"
         name: "contact"
         file: "contact.md"
+        preview_path: "/contact"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
           - {label: "Title", name: "title", widget: "string"}
@@ -78,6 +82,7 @@ collections:
       - label: "Work Page"
         name: "work"
         file: "work.md"
+        preview_path: "/work"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
           - {label: "Title", name: "title", widget: "string"}
@@ -91,6 +96,7 @@ collections:
     folder: "other-wrecks"
     create: true
     slug: "{{slug}}"
+    preview_path: "/other-wrecks/{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - {label: "Title", name: "title", widget: "string"}
