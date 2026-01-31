@@ -1,0 +1,31 @@
+[build]
+  command = "bundle exec jekyll build"
+  publish = "_site"
+
+[build.environment]
+  RUBY_VERSION = "3.2.0"
+
+# Production context (main branch)
+[context.production.environment]
+  JEKYLL_ENV = "production"
+
+# Deploy preview context
+[context.deploy-preview.environment]
+  JEKYLL_ENV = "development"
+
+# Branch deploy context
+[context.branch-deploy.environment]
+  JEKYLL_ENV = "development"
+
+# Redirect rules
+[[redirects]]
+  from = "https://ssthistlegorm.github.io/*"
+  to = "https://ssthistlegorm.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://lolandese.github.io/*"
+  to = "https://ssthistlegorm.com/:splat"
+  status = 301
+  force = true

@@ -2,7 +2,7 @@
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "vendor/", ".bundle/"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "vendor/", ".bundle/", "node_modules/", "netlify.toml"]
 highlighter: rouge
 
 # Themes are encouraged to use these universal variables
@@ -27,7 +27,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : https://lolandese.github.io
+production_url : https://ssthistlegorm.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
