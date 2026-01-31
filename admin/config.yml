@@ -1,9 +1,6 @@
 backend:
-  name: github
-  repo: lolandese1/ssthistlegorm.github.io
+  name: git-gateway
   branch: master
-  base_url: https://ssthistlegorm.com
-  auth_endpoint: oauth
 
 # Use Sveltia CMS in production
 # When published to ssthistlegorm.com, users will be redirected to Sveltia CMS
