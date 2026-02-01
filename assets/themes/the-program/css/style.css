@@ -1643,3 +1643,403 @@ button, a.button {
   button[disabled], button[disabled]:hover, a.button[disabled], a.button[disabled]:hover {
     color: #b0e2d2;
     border-color: #b0e2d2; }
+
+/* Dark Mode Support - Adapts to browser/OS preference
+   Using a rich, cohesive color palette with warm and cool tones */
+@media (prefers-color-scheme: dark) {
+  /* Color Palette:
+     - Background: #0d1117 (dark)
+     - Secondary bg: #161b22 (slightly lighter)
+     - Borders: #30363d (subtle)
+     - Text: #e6edf3 (light gray)
+     - Secondary text: #8b949e (muted)
+
+     Accent colors (harmonious palette):
+     - Headings: #f0883e (warm orange)
+     - Links: #58a6ff (blue - complement to orange)
+     - Links visited: #bc8cff (purple/violet)
+     - Links hover: #79c0ff (light blue)
+     - Success/Active: #56d364 (green)
+     - Warning/Highlight: #f0883e (orange)
+     - Interactive: #d2a8ff (light purple)
+  */
+
+  :root {
+    color-scheme: dark;
+  }
+
+  /* Base HTML elements */
+  html {
+    background-color: #0d1117 !important;
+    color: #e6edf3 !important;
+  }
+
+  body {
+    background-color: #0d1117 !important;
+    color: #e6edf3 !important;
+  }
+
+  body, button, input, select, textarea {
+    color: #e6edf3 !important;
+  }
+
+  /* Page and layout backgrounds */
+  #page {
+    background: #0d1117 !important;
+    background-color: #0d1117 !important;
+    background-image: none !important;
+  }
+
+  .hentry {
+    background-color: #0d1117 !important;
+  }
+
+  .body {
+    background-color: #0d1117 !important;
+  }
+
+  .body .unit-body {
+    background-color: #0d1117 !important;
+  }
+
+  .unit-body {
+    background-color: #0d1117 !important;
+  }
+
+  .unit-inner,
+  .unit-body-inner {
+    background-color: transparent !important;
+  }
+
+  /* Header styling */
+  .the-header {
+    background-color: #161b22 !important;
+    border-bottom: 1px solid #30363d;
+  }
+
+  .the-header .unit-head {
+    background-color: #161b22 !important;
+  }
+
+  .the-header .unit-inner {
+    background-color: transparent !important;
+  }
+
+  /* Self portrait image */
+  .the-header img#selfportrait {
+    background-color: #161b22 !important;
+  }
+
+  /* Footer styling */
+  .the-footer {
+    background-color: #161b22 !important;
+    border-top: 1px solid #30363d;
+  }
+
+  .the-footer .unit-foot,
+  .the-footer .unit-inner {
+    background-color: transparent !important;
+  }
+
+  /* Headings - warm orange */
+  h1, h2, h3, h4, h5, h6 {
+    color: #f0883e !important;
+  }
+
+  .unit-article header h1 {
+    color: #f0883e !important;
+  }
+
+  .unit-article .entry-content h2,
+  .unit-article .entry-content h3,
+  .unit-article .entry-content h4,
+  .unit-article .entry-content h5,
+  .unit-article .entry-content h6 {
+    color: #f0883e !important;
+  }
+
+  /* Links - blue (complementary to orange) */
+  a,
+  a:link {
+    color: #58a6ff !important;
+  }
+
+  a:visited {
+    color: #bc8cff !important;
+  }
+
+  a:hover {
+    color: #79c0ff !important;
+  }
+
+  /* Logo link - keep orange to match branding */
+  .the-header .logo a,
+  .the-header .logo a:link,
+  .the-header .logo a:visited {
+    color: #f0883e !important;
+  }
+
+  /* Navigation menu */
+  .nav-global a {
+    color: #e6edf3 !important;
+    border-color: #30363d !important;
+  }
+
+  .nav-global a:hover {
+    color: #0d1117 !important;
+    background-color: #58a6ff !important;
+    border-color: #58a6ff !important;
+  }
+
+  /* Fix menu hover alignment issue - match light theme spacing */
+  .the-header .unit-head .nav-global li a {
+    margin: 0 !important;
+    padding: 10px 12px !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    font-size: large !important;
+  }
+
+  .the-header .unit-head .nav-global li a:hover {
+    background-color: #58a6ff !important;
+    color: #0d1117 !important;
+    border-color: #58a6ff !important;
+  }
+
+  /* Entry content area */
+  .entry-content {
+    background-color: transparent !important;
+    color: #e6edf3 !important;
+  }
+
+  .entry-content p,
+  .entry-content li,
+  .entry-content span {
+    color: #e6edf3 !important;
+  }
+
+  /* Images */
+  .unit-article img {
+    border-color: #30363d !important;
+  }
+
+  /* Article headers */
+  .unit-article header {
+    border-bottom-color: #30363d !important;
+  }
+
+  /* Post styling */
+  .post {
+    background-color: #161b22 !important;
+    border: 1px solid #30363d;
+    color: #e6edf3 !important;
+  }
+
+  .post h3 {
+    color: #f0883e !important;
+  }
+
+  /* Code blocks - purple tones */
+  code {
+    background-color: #1c1e29 !important;
+    color: #d2a8ff !important;
+    border: 1px solid #30363d;
+  }
+
+  pre {
+    background-color: #161b22 !important;
+    color: #e6edf3 !important;
+    border: 1px solid #30363d !important;
+  }
+
+  pre code {
+    background-color: transparent !important;
+  }
+
+  .unit-article p code,
+  .unit-article li code {
+    background-color: #2d1b41 !important;
+    color: #d2a8ff !important;
+  }
+
+  /* Tags - varied colors */
+  .tag_box {
+    color: #e6edf3 !important;
+    background: #161b22 !important;
+  }
+
+  .tag_box a {
+    background-color: #1c2128 !important;
+    border: 1px solid #30363d !important;
+    color: #58a6ff !important;
+  }
+
+  .tag_box a:hover {
+    background-color: #2d333b !important;
+    border-color: #58a6ff !important;
+    color: #79c0ff !important;
+  }
+
+  .tag_box a.active {
+    background-color: #1f6feb !important;
+    border-color: #1f6feb !important;
+    color: #ffffff !important;
+  }
+
+  .layout-page .tag_box {
+    background: #161b22 !important;
+  }
+
+  /* Category and tag spans - orange */
+  .unit-article .list-category span,
+  .unit-article .list-tag span {
+    background-color: #f0883e !important;
+    color: #0d1117 !important;
+  }
+
+  .unit-article .list-category a:hover span,
+  .unit-article .list-tag a:hover span {
+    background-color: #ff9a56 !important;
+  }
+
+  /* Blockquotes - teal accent */
+  blockquote {
+    border-left-color: #3fb8af !important;
+    color: #8b949e !important;
+  }
+
+  /* Horizontal rule */
+  hr {
+    background-color: #30363d !important;
+    border-top-color: #30363d !important;
+  }
+
+  /* Tables */
+  table {
+    color: #e6edf3 !important;
+    border-color: #30363d !important;
+  }
+
+  th, td {
+    border-color: #30363d !important;
+    color: #e6edf3 !important;
+  }
+
+  th {
+    background-color: #161b22 !important;
+    color: #58a6ff !important;
+  }
+
+  tr:hover {
+    background-color: #1c2128 !important;
+  }
+
+  /* Form elements */
+  input, textarea, select {
+    background-color: #0d1117 !important;
+    border: 1px solid #30363d !important;
+    color: #e6edf3 !important;
+  }
+
+  input:focus, textarea:focus, select:focus {
+    border-color: #58a6ff !important;
+    box-shadow: 0 0 0 3px rgba(88, 166, 255, 0.2) !important;
+  }
+
+  /* Buttons - green for primary actions */
+  button, a.button {
+    background-color: #238636 !important;
+    border-color: #238636 !important;
+    color: #ffffff !important;
+  }
+
+  button:hover, a.button:hover {
+    background-color: #2ea043 !important;
+    border-color: #2ea043 !important;
+    color: #ffffff !important;
+  }
+
+  button[disabled], button[disabled]:hover {
+    background-color: #161b22 !important;
+    border-color: #30363d !important;
+    color: #8b949e !important;
+  }
+
+  /* Sidebar/footer content boxes */
+  .misc {
+    color: #e6edf3 !important;
+    background-color: transparent !important;
+  }
+
+  .misc h4 {
+    color: #f0883e !important;
+  }
+
+  .misc ul li a {
+    color: #58a6ff !important;
+  }
+
+  .misc ul li a:hover {
+    color: #79c0ff !important;
+  }
+
+  .licence, .licence a {
+    color: #e6edf3 !important;
+  }
+
+  .licence a:hover {
+    color: #58a6ff !important;
+  }
+
+  /* Highlight/mark elements - yellow highlight */
+  mark {
+    background-color: #9e6a03 !important;
+    color: #ffffff !important;
+  }
+
+  ins {
+    background-color: #238636 !important;
+    color: #ffffff !important;
+  }
+
+  /* Selection - purple */
+  ::selection {
+    background-color: #6e40c9 !important;
+    color: #ffffff !important;
+  }
+
+  ::-moz-selection {
+    background-color: #6e40c9 !important;
+    color: #ffffff !important;
+  }
+
+  /* Footer unit border */
+  .unit-article .unit-foot {
+    border-top-color: #30363d !important;
+  }
+
+  /* PREV/NEXT navigation links - distinct colors */
+  .nav-prev a {
+    color: #58a6ff !important;
+  }
+
+  .nav-next a {
+    color: #56d364 !important;
+  }
+
+  /* HOME and BACK TO TOP links */
+  .the-footer a {
+    color: #58a6ff !important;
+  }
+
+  .the-footer a:hover {
+    color: #79c0ff !important;
+  }
+
+  /* Special link styling for "Others say" type links */
+  .entry-content a[href*="testimonial"],
+  .entry-content a[href*="review"] {
+    color: #d2a8ff !important;
+  }
+}
